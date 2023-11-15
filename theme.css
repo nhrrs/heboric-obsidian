@@ -1,0 +1,50 @@
+body {
+  --background-primary: rgb(253, 254, 255);
+  --background-secondary: rgb(248, 251, 254);
+
+  --font-text-theme: sans-serif;
+  --h1-size: 2rem;
+  --h2-size: 1.65rem;
+  --h3-size: 1.5rem;
+  --h4-size: 1.25rem;
+  --h5-size: 1.125rem;
+  --h6-size: 1rem;
+
+  --h1-color: rgb(10, 10, 10);
+  --h2-color: rgb(10, 10, 10);
+  --h3-color: rgb(10, 10, 10);
+  --h4-color: rgb(10, 10, 10);
+  --h5-color: rgb(10, 10, 10);
+  --h6-color: rgb(10, 10, 10);
+  --text-normal: rgb(60, 60, 60);
+}
+
+.inline-title {
+  font-size: 2.5rem;
+  color: black;
+}
+
+h1,
+.markdown-rendered h1 {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.markdown-rendered td,
+.markdown-rendered th {
+  padding: 0.65rem;
+}
+
+thead tr th,
+thead tr th:nth-child(2),
+.markdown-rendered thead tr > th:nth-child(2n + 2) {
+  background-color: #e2e2e2;
+}
+
+.math-inline {
+  font-size: 1.15em;
+}
+
+.math-block {
+  font-size: 1.1em;
+}
