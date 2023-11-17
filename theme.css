@@ -157,6 +157,11 @@ h2,
   border-bottom: 1px solid var(--color-base-35);
 }
 
+p,
+.cm-line:not(.HyperMD-header) {
+  text-align: justify;
+}
+
 .markdown-rendered td,
 .markdown-rendered th {
   padding: 0.65rem;
