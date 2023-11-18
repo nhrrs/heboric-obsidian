@@ -104,7 +104,7 @@ body {
   --tag-background-hover: var(--color-base-25);
 
   --background-primary: var(--color-base-05);
-  --background-secondary: var(--color-base-20);
+  --background-secondary: hsl(18, 65%, 98%);
 
   --inline-title-color: var(--color-base-100);
   --h1-color: var(--color-base-100);
@@ -126,7 +126,7 @@ body {
   --tab-text-color-focused-active-current: var(--color-base-100);
   --table-header-background: var(--color-base-20);
 
-  --code-background: var(--color-base-10);
+  --code-background: var(--color-base-20);
   --code-normal: var(--color-base-80);
   --code-comment: var(--color-base-50);
   --code-function: #ba0909;
@@ -141,6 +141,15 @@ body {
 
   --tag-background: var(--color-base-20);
   --tag-background-hover: var(--color-base-25);
+
+  --nav-item-color-hover: var(--color-base-20);
+  --nav-item-background-hover: var(--color-accent);
+  --nav-item-color-active: var(--color-base-20);
+  --nav-item-background-active: var(--color-accent);
+}
+
+.theme-light ::selection {
+  background-color: hsl(0, 50%, 90%);
 }
 
 h1,
@@ -183,10 +192,18 @@ p,
 }
 
 .math {
-  color: var(--color-base-100);
   font-size: 1.075rem;
+}
+
+.math-block {
+  color: var(--color-base-80);
 }
 
 .cm-line.HyperMD-codeblock {
   font-size: var(--code-size);
+}
+
+/* Keep vault title colour on hover */
+.nav-folder:first-child > .tree-item-self:hover {
+  color: var(--color-base-80);
 }
