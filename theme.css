@@ -207,3 +207,7 @@ p,
 .nav-folder:first-child > .tree-item-self:hover {
   color: var(--color-base-80);
 }
+
+.search-result:not(.is-collapsed) .search-result-file-title {
+  color: var(--color-base-80);
+}
