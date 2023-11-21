@@ -61,8 +61,6 @@ body {
   --link-decoration: none;
   --link-decoration-hover: none;
 
-  --background-modifier-active-hover: rgb(250, 240, 240);
-
   --graph-node-tag: var(--color-accent);
   --graph-node-unresolved: var(--color-accent-2);
 
@@ -120,6 +118,7 @@ body {
 
   --titlebar-background: var(--color-base-20);
   --titlebar-background-focused: var(--color-base-20);
+  --background-modifier-active-hover: rgb(250, 240, 240);
 
   --interactive-accent: var(--color-accent);
   --blockquote-background-color: var(--color-base-05);
@@ -192,6 +191,8 @@ body {
 
   --titlebar-background: var(--color-base-00);
   --titlebar-background-focused: var(--color-base-00);
+  --icon-color-active: var(--color-base-100);
+  --background-modifier-active-hover: var(--color-accent);
 
   --interactive-accent: var(--color-accent);
   --blockquote-background-color: var(--color-base-05);
