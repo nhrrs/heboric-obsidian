@@ -2,10 +2,13 @@
 
 A clean, elegant theme for [Obsidian](https://obsidian.md/), built with a pleasant reading experience in mind.
 
+![Screenshot](Heboric-screenshot.png)
+
 ## Features
 
-- Built for comfortable reading in light and dark modes.
-- Easier-to-read mathematics.
+- Built for comfortable reading
+- Dark and light themes
+- Easier-to-read mathematics
 
 ## Installation
 
