@@ -97,6 +97,7 @@ body {
   --color-base-100: #000000;
 
   --color-accent: rgb(200, 100, 100);
+  --color-accent-1: rgb(200, 100, 100);
   --color-accent-2: rgb(220, 120, 120);
 
   --background-primary: var(--color-base-05);
@@ -172,6 +173,7 @@ body {
   --background-secondary: var(--color-base-00);
 
   --color-accent: rgb(200, 100, 100);
+  --color-accent-1: rgb(200, 100, 100);
   --color-accent-2: rgb(220, 120, 120);
 
   --inline-title-color: var(--color-base-100);
@@ -193,6 +195,7 @@ body {
   --titlebar-background-focused: var(--color-base-00);
   --icon-color-active: var(--color-base-100);
   --background-modifier-active-hover: var(--color-accent);
+  --divider-color: var(--color-base-20);
 
   --interactive-accent: var(--color-accent);
   --blockquote-background-color: var(--color-base-05);
@@ -225,6 +228,12 @@ body {
   --nav-item-background-hover: var(--color-accent);
   --nav-item-color-active: var(--color-base-80);
   --nav-item-background-active: var(--color-accent);
+}
+.is-mobile.theme-dark {
+  --color-base-00: hsl(221, 8%, 14%);
+  --color-base-10: hsl(221, 8%, 19%);
+  --color-base-20: hsl(221, 8%, 23%);
+  --tag-background: var(--color-accent);
 }
 
 h1,
