@@ -84,7 +84,7 @@ body {
   --h5-color: var(--color-base-80);
   --h6-color: var(--color-base-80);
   --text-normal: var(--color-base-70);
-  --text-selection: hsl(0, 50%, 90%);
+  --text-selection: var(--color-accent);
   --link-external-color: var(--color-accent);
   --link-unresolved-color: var(--color-accent-2);
   --collapse-icon-color-collapsed: var(--color-accent);
@@ -157,7 +157,7 @@ body {
   --h5-color: var(--color-base-80);
   --h6-color: var(--color-base-80);
   --text-normal: var(--color-base-70);
-  --text-selection: hsl(0, 50%, 90%);
+  --text-selection: hsl(0, 40%, 50%);
   --link-color: var(--color-accent);
   --link-external-color: var(--color-accent);
   --link-unresolved-color: var(--color-accent-2);
@@ -202,11 +202,16 @@ body {
   --nav-item-color-active: var(--color-base-80);
   --nav-item-background-active: var(--color-accent);
 }
+
 .is-mobile.theme-dark {
   --color-base-00: hsl(221, 8%, 14%);
   --color-base-10: hsl(221, 8%, 19%);
   --color-base-20: hsl(221, 8%, 23%);
   --tag-background: var(--color-accent);
+}
+
+.theme-light ::selection {
+  color: var(--color-base-00);
 }
 
 h1,
