@@ -2,7 +2,7 @@
 
 A clean, elegant theme for [Obsidian](https://obsidian.md/), built with a pleasant reading experience in mind.
 
-![Screenshot](Heboric-screenshot.png)
+![Screenshot](Heboric-screenshot-mobile.png)
 
 ## Features
 
