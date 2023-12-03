@@ -240,6 +240,9 @@ h2,
 .callout-title-inner {
   font-family: var(--sans-serif);
 }
+.callout-content {
+  color: var(--color-base-80);
+}
 .callout-content > *:last-child {
   margin-block-end: 0;
 }
