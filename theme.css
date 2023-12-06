@@ -210,8 +210,8 @@ body {
   --tag-background: var(--color-accent);
 }
 
-.theme-light ::selection {
-  color: var(--color-base-00);
+::selection {
+  color: white;
 }
 
 h1,
