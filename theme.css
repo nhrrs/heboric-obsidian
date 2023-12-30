@@ -217,6 +217,16 @@ h2,
   border-bottom: 1px solid var(--color-base-35);
 }
 
+.markdown-rendered h1 code {
+  font-size: calc(var(--h1-size) * 0.9);
+}
+.markdown-rendered h2 code {
+  font-size: calc(var(--h2-size) * 0.9);
+}
+.markdown-rendered h3 code {
+  font-size: calc(var(--h3-size) * 0.9);
+}
+
 .markdown-rendered td,
 .markdown-rendered th {
   padding: 0.65rem;
