@@ -1,4 +1,21 @@
 body {
+  --sans-serif: "SF Pro", ui-sans-serif, sans-serif;
+  --serif: "New York", "Georgia", ui-serif, serif;
+  --mono: "SF Mono", ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+
+  --font-interface: var(--font-interface-override), var(--font-interface-theme), var(--sans-serif);
+  --font-text: var(--font-text-override), var(--font-text-theme), var(--serif);
+  --font-monospace: var(--font-monospace-override), var(--font-monospace-theme), var(--mono);
+
+  --h1-font: var(--sans-serif);
+  --h2-font: var(--sans-serif);
+  --h3-font: var(--sans-serif);
+  --h4-font: var(--sans-serif);
+  --h5-font: var(--sans-serif);
+  --h6-font: var(--sans-serif);
+  --table-header-font: var(--sans-serif);
+
   --radius-s: 3px;
   --border-width: 1px;
 
@@ -243,6 +260,10 @@ h2,
   margin-block-end: 0;
 }
 
+.callout-title-inner {
+  font-family: var(--sans-serif);
+}
+
 .math {
   font-size: 1.075rem;
 }
@@ -267,4 +288,8 @@ h2,
 .theme-dark span.cm-highlight,
 .theme-dark .markdown-rendered mark {
   color: var(--color-base-100);
+}
+
+.metadata-container {
+  font-family: var(--sans-serif);
 }
